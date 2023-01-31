@@ -1,0 +1,17 @@
+body {
+  display: grid;
+  grid-template-areas: 
+  "img form"
+  "img create"
+  ;
+
+}
+
+.image {
+  grid-area: img;
+  background-color: yellow;
+}
+
+.form {
+  grid-area: form;
+}
