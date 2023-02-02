@@ -1,0 +1,25 @@
+.upper {
+  grid-area: upper;
+  padding-top: 150px;
+  padding-left: 40px;
+  padding-bottom: 50px;
+  border-bottom: 0.4px solid rgb(248, 243, 243);
+}
+
+.upper p {
+  font-weight: bold;
+  font-size: 25px;
+}
+
+#real {
+  width: 100%;
+  max-width: 800px;
+}
+
+#know {
+  font-style: italic;
+}
+
+#want {
+  padding-top: 30px;
+}

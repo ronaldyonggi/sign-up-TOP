@@ -1,0 +1,16 @@
+
+html, body {
+  height: 100%;
+}
+
+body {
+  display: grid;
+  grid-template-areas: 
+  "img upper"
+  "img middle"
+  "img lower"
+  ;
+
+  grid-template-columns: 1fr 2fr;
+  grid-template-rows: 1fr 1fr 1fr;
+}

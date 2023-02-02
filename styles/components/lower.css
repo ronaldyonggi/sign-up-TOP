@@ -1,0 +1,20 @@
+.lower {
+  padding-top: 30px;
+  padding-left: 40px;
+}
+
+.lower button {
+  border: none;
+  color: white;
+  background-color: #596D48;
+  padding: 12px 40px;
+  border-radius: 4px;
+  margin-bottom: 40px;
+  font-weight: bold;
+}
+
+.lower #login {
+  text-decoration: none;
+  color: green;
+  font-weight: bold;
+}
