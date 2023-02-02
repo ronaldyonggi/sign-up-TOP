@@ -5,6 +5,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="styles/main.css">
+  <script src="script.js" defer></script>
   <title>Sign Up Form</title>
 </head>
 <body>
@@ -53,13 +54,14 @@
       <div class="input-field">
         <label for="password">PASSWORD</label>
         <br>
-        <input type="password" name="password" id="password" required>
+        <input type="password" name="password" id="password" onkeyup="check()" required>
+        <div id="matchErrorDiv"></div>
       </div>
 
       <div class="input-field">
         <label for="confirm_password">CONFIRM PASSWORD</label>
         <br>
-        <input type="password" name="confirm_password" id="confirm_password" required>
+        <input type="password" name="confirm_password" id="confirm_password" onkeyup="check()" required>
       </div>
 
     </form>
